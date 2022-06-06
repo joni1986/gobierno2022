@@ -32,26 +32,22 @@ public class errordecontraseña extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        getContentPane().setLayout(null);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Usuario o Contraseña Incorrecta");
-        getContentPane().add(jLabel2);
-        jLabel2.setBounds(120, 80, 260, 40);
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 80, 260, 40));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/fotos/boton de error_1.jpg"))); // NOI18N
-        getContentPane().add(jLabel1);
-        jLabel1.setBounds(30, 70, 60, 70);
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 70, 60, 70));
 
         jButton1.setText("Aceptar");
-        getContentPane().add(jButton1);
-        jButton1.setBounds(280, 190, 72, 22);
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 190, -1, -1));
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/fotos/fondo error.jpg"))); // NOI18N
         jLabel3.setText("jLabel3");
-        getContentPane().add(jLabel3);
-        jLabel3.setBounds(-3, -4, 410, 290);
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(-3, -4, 410, 260));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
