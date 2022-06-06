@@ -1,6 +1,8 @@
 
 package gobierno;
 
+import login.menu;
+
 
 public class Gobierno {
 
@@ -8,6 +10,7 @@ public class Gobierno {
     public static void main(String[] args) {
         System.out.println(" hola mundo"); 
         System.out.println(" casa una caraga"); 
+        menu.main(args);
     }
     
 }
